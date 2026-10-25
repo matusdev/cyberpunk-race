@@ -1,0 +1,81 @@
+{
+  "station": "98.7 BODY HEAT RADIO",
+  "cover": "cover.jpg",
+  "tracks": [
+    {
+      "file": "01.mp3",
+      "artist": "Clockwork Venus",
+      "title": "BM (SOPHIE ft. Shygirl)"
+    },
+    {
+      "file": "02.mp3",
+      "artist": "Neon Haze",
+      "title": "Circus Minimus (Jvzel)"
+    },
+    {
+      "file": "03.mp3",
+      "artist": "Window Weather",
+      "title": "Major Crimes (HEALTH)"
+    },
+    {
+      "file": "04.mp3",
+      "artist": "Artemis Delta",
+      "title": "Night City (Rel)"
+    },
+    {
+      "file": "05.mp3",
+      "artist": "Hallie Coggins",
+      "title": "I Really Want to Stay at Your House (Rosa Walton)"
+    },
+    {
+      "file": "06.mp3",
+      "artist": "Point Break Candy",
+      "title": "Hole in the Sun (Raney Shockne)"
+    },
+    {
+      "file": "07.mp3",
+      "artist": "American Medical Association",
+      "title": "Bliind (Raney Shockne)"
+    },
+    {
+      "file": "08.mp3",
+      "artist": "Trash Generation",
+      "title": "History (Gazelle Twin)"
+    },
+    {
+      "file": "09.mp3",
+      "artist": "Lizzy Wizzy",
+      "title": "Delicate Weapon (Grimes)"
+    },
+    {
+      "file": "10.mp3",
+      "artist": "Us Cracks",
+      "title": "Ponpon Shit (Namakopuri)"
+    },
+    {
+      "file": "11.mp3",
+      "artist": "Us Cracks",
+      "title": "User Friendly (Namakopuri)"
+    },
+    {
+      "file": "12.mp3",
+      "artist": "Us Cracks ft. Kerry Eurodine",
+      "title": "Off The Leash (Namakopuri)"
+    },
+    {
+      "file": "13.mp3",
+      "artist": "IBDY",
+      "title": "Crustpunk (Rat Boy)"
+    },
+    {
+      "file": "14.mp3",
+      "artist": "IBDY",
+      "title": "Here's a Thought (Rat Boy)"
+    },
+    {
+      "file": "15.mp3",
+      "artist": "P.T. Adamczyk",
+      "title": "Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska"
+    }
+  ]
+}

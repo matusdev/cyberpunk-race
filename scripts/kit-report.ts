@@ -1,0 +1,14 @@
+import { RoadNetwork } from '../src/world/network.ts';
+import { CityLayout } from '../src/world/city.ts';
+import { DISTRICTS } from '../src/world/path.ts';
+const net = new RoadNetwork();
+const city = new CityLayout(net);
+const big = city.buildings.filter(b => Math.min(b.w, b.d) >= 24 && b.h >= 50);
+const hist: Record<string, number> = {};
+for (const b of big) hist[DISTRICTS[b.dist]] = (hist[DISTRICTS[b.dist]] || 0) + 1;
+console.log('buildings', city.buildings.length, 'big', big.length, hist);
+console.log(big.slice(0, 12).map(b => `${DISTRICTS[b.dist]} w${b.w.toFixed(0)} d${b.d.toFixed(0)} h${b.h.toFixed(0)} style${b.style} crown=${b.crown ?? ''}`).join('\n'));
+const hs = city.buildings.map(b => b.h).sort((a, b) => a - b);
+console.log('h quantiles', [0.1, 0.5, 0.9, 0.99].map(q => hs[Math.floor(q * hs.length)].toFixed(0)));
+const ws = city.buildings.map(b => Math.min(b.w, b.d)).sort((a, b) => a - b);
+console.log('min-side quantiles', [0.1, 0.5, 0.9, 0.99].map(q => ws[Math.floor(q * ws.length)].toFixed(0)));

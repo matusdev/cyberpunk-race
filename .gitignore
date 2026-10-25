@@ -1,0 +1,6 @@
+node_modules
+dist
+android/app/build
+android/.gradle
+blender/out/*.blend1
+.downloads

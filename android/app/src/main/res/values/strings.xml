@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Night City Rush</string>
+    <string name="title_activity_main">Night City Rush</string>
+    <string name="package_name">com.nightcityrush.game</string>
+    <string name="custom_url_scheme">com.nightcityrush.game</string>
+</resources>
